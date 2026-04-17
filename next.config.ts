@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   output: 'export',
   images: { unoptimized: true },
   distDir: 'out',
-  basePath: '/portfolio',
+  trailingSlash: true,
+  assetPrefix: '/portfolio',
 };
 
 export default nextConfig;
